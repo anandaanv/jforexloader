@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<operators name="jforexloader" version="6.0" docbundle="com/rapidminer/extension/resources/i18n/OperatorsDocJForexLoader">
+    <group key="">
+        <!-- This is an example how to specify Operators and Operator groups. The Operator groups define
+                where Operators will be located in the Operator tree. -->
+        <group key="example_group">
+          <operator>
+					<key>load_external</key>
+					<class>com.rapidminer.operator.io.JforexSource</class>
+					<replaces>JforexSource</replaces>
+				</operator>
+         </group>
+    </group>
+</operators>
